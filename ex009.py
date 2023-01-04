@@ -1,0 +1,13 @@
+n = int(input('Digite o número que deseja obter a tabuada '))
+for count in range(10):
+    print("%d x %d = %d" % (n, count+1, n*(count+1)) )
+#print('{:.0f} X {:.0f} = {.:0f}'.format(n, 1, n*1))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 2, n*2))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 3, n*3))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 4, n*4))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 5, n*5))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 6, n*6))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 7, n*7))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 8, n*8))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 9, n*9))
+#print('{:.0f} X {:.0f} = {:.0f}'.format(n, 10, n*10))
