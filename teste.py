@@ -3,10 +3,10 @@ while True:
     print('2 - não comeu')
     c = int(input('>'))
     if c == 1:
-        print('parabens')
+        print('Parabéns')
         break
     elif c == 2:
-        print('vai comer vagabundo')
+        print('Se alimente por favor')
         break
     else:
         continue
