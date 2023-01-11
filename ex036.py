@@ -3,7 +3,7 @@ a parcela mensal do emprestimo (que será utilizado para  a compra da casa) que 
 valcasa = float(input('Qual o valor da casa?'))
 salario = float(input('Digite o seus rendimentos mensais (Salário) em R$'))
 anopag = int(input('Digite a quantidade e tempo que deseja pagar ex: 1 - 160'))
-sal30 = 30/100 * salario
+sal30 = salario * 30/100
 emprestimo = valcasa / anopag
 if sal30 >= emprestimo:
     print('\033[1;32mSeu emprestimo no valor de R${:.2f} foi aprovado, parabéns!'.format(valcasa))
