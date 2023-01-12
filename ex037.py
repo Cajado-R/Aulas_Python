@@ -1,4 +1,4 @@
-numin = int(input('Digitew um número inteiro: '))
+numin = int(input('Digite um número inteiro: '))
 print('''Escolha uma das bases para conversão
 [1] Converter Binário
 [2] Converter Octal
