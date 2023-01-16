@@ -1,5 +1,5 @@
 #progressão aritmetica
 num = int(input('Digite um número'))
-r = int(input('Digite o valor da razão: '))
-for c in range(num, r * 10, r):
+razao = int(input('Digite o valor da razão: '))
+for c in range(num, num + (10  - 1) * razao, razao):
     print(c)

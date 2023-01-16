@@ -20,5 +20,5 @@ for c in range(1, 5):
         if idade < menosde20 and sexo == 'F':
             menosde20'''
 print('A média de idades dos participantes é de {}'.format(idademedia / 4))
-print('O nome do homem com idade Maior É {}'.format(nomes))
+print('O nome do homem com idade maior é {}'.format(nomes))
 print('O número de mulehres abaixo dos 20 anos é {}'.format(menosde20))

@@ -1,5 +1,3 @@
-maior = 0
-menor = 0
 for c in range(1, 7):
     peso = float(input('Qual o seu peso'))
     if c == 1:
