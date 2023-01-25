@@ -1,14 +1,12 @@
 print('Sequência de Fibonacci')
 numeros = int(input('Digite quantos numeros da sequencia gostaria de ver? :'))
-comeco = 0
-fibonacci = 0
-if comeco == 1:
-    comeco = 1
-    fibonacci2 = 1
-    while comeco < (numeros - 1):
-        x = fibonacci + fibonacci2
-        print(x, end='>>>')
-        comeco += 1
-        fibonacci = fibonacci2
-        fibonacci2 = x
-print(f'\nSua sequência foi finalizada!')
+termo1 = 0
+termo2 = 1
+print(f'{termo1}→{termo2} ', end='→')
+cont = 3
+while cont <= numeros:
+    termo3 = termo1 + termo2
+    print(f'{termo3}', end='→')
+    termo1 = termo2
+    termo2 = termo3
+    cont+=1
