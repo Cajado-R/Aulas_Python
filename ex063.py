@@ -10,3 +10,4 @@ while cont <= numeros:
     termo1 = termo2
     termo2 = termo3
     cont+=1
+

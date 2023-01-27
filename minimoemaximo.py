@@ -1,7 +1,7 @@
 #FUNÇÃO EM LISTA:
 
-lista = [1, 8, 2, 4, 9]
+lista = 11, 8, 200, 4, 9
 
-menor = min(lista) # 1
-maior = max(lista) # 9
+menor = min(lista)
+maior = max(lista)
 print(menor,'e', maior)
