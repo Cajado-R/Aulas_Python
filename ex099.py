@@ -14,4 +14,4 @@ def valores(* num):
 
 
 valores(1, 2, 3, 4, 6, 8)
-valores(2, 45, 32, 4, 1)
+valores(8, 45, 32, 56, 10)
